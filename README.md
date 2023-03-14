@@ -1,6 +1,6 @@
 # direct-connection-android
 
-### The advantage of a Direct Connection server is the possibility for players on both Android and PC to be able to be in the game without using VPN services, quickly and easily.
+### The advantage of a Direct Connection server is the possibility for players on Android and PC play together without using VPN services, quickly and easily.
 
 # **How to create a Direct Connection Server for sm64ex-coop on ANDROID**
 
