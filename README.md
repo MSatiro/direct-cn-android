@@ -68,7 +68,7 @@ IP:Port `(ex: 211.ply.gg:43578)`
 
 Ipv4:Port `(ex: 136.361.221.211:43578)`
 
-Every time you start an online game, people will have these three addresses chooses to be using. I hope this can help someone, as it helped me
+Every time you start an online game, people will have these three addresses choices to use
 
 # **Tips:**
 
@@ -92,6 +92,8 @@ Just make sure you put the command in the Termux text box, **not directly at the
 
 • Some of the three addresses may not work when you connect/when they connect to you, but the others may work
 
+
+**That's all, I hope this guide can be useful for someone :D**
 
 # **Credits:**
 
