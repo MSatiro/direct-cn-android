@@ -12,7 +12,7 @@ And for Ubuntu in Termux, follow this very intuitive guide on GitHub: <https://g
 
 With everything installed and ready, let's get down to business. 
 
-1° Create a account on <https://playit.gg> (It is the program that we will use to create our server). You won't have any problems, just create the account and check the email for authentication.
+1° **Create a account** on <https://playit.gg> (It is the program that we will use to create our server). You won't have any problems, just create the account and check the email for authentication.
 
 2° In your account overview, press `Add Tunnel` and do these steps:
 
