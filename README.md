@@ -18,17 +18,17 @@ With everything installed and ready, let's get down to business.
 
  • `Tunnel Type:` Custom, and press Next
 
- • `Local Ipv4 | Local Port:` You'll need to know your router IP for this step (theoretically we would have to use the true ipv4 address, however in the tests carried out we were not successful using it, only the IP of the router that worked). To see your router IP on your Android device, it's something similar to this: Go into Wi-fi Settings > Select Your Wi-fi > Details > Scroll Down until you will see the the IP Address, now copy it and paste in the `Local Ipv4` box on playit. In the `Local Port`, we recommend 7777, then click Next
+ • `Local Ipv4 | Local Port:` You'll need to know your router IP for this step (theoretically we would have to use the true ipv4 address, however in the tests carried out we were not successful using it, only the IP of the router that worked). **To see your router IP on your Android device, it's something similar to this: Go into Wi-fi Settings > Select Your Wi-fi > Details > Scroll Down until you will see the the IP Address**, now copy it and paste in the `Local Ipv4` box on playit. In the `Local Port`, we recommend 7777, then click Next
 
  
 
 3° In `Port Type` choose the `TCP+UDP`, no need to type anything in `Port Count`, leave it blank, press Create Tunnel
 
-4° Now you can name the Tunnel whatever you want. You will see a window with some information about your tunnel, like the IP, Adress, Port, etc. You will need to save some information: `Adress (ex: somethin-your.at.ply.gg)  |  IP (ex: 211.ply.gg)  |  IPV4 (ex: 136.361.221.211)  |  Port (ex: 43578)` Soon we will use it to assemble the connection addresses.
+4° Now you can name the Tunnel whatever you want. You will see a window with some information about your tunnel, like the IP, Adress, Port, etc. You will need to **save some information**: `Adress (ex: somethin-your.at.ply.gg)  |  IP (ex: 211.ply.gg)  |  IPV4 (ex: 136.361.221.211)  |  Port (ex: 43578)` Soon we will use it to assemble the connection addresses.
 
-5° On TERMUX, check your device architecture using `uname -m`, will probably be “aarch64”. Go to <https://playit.gg/download/> and donwload the LINUX version corresponding to your device architecture, so in this case,  get the aarch64
+5° On Termux, check your device architecture using `uname -m`, will probably be “aarch64”. Go to <https://playit.gg/download/> and donwload the **Linux** version corresponding to your device architecture, so in this case,  get the aarch64
 
-6° Use some File Explorer app to move the archive we donwloaded to “ubuntu-in-termux/ubuntu-fs/home”. I recommend using the app Material Files (you can find it on Google Play Store or F-Droid), because we will need to enter the Termux folder, which is located externally and not just any file manager will be able to access it. Using the Material Files app: 
+6° Use some file explorer app to move the archive we donwloaded to “ubuntu-in-termux/ubuntu-fs/home”. I recommend using the app **Material Files** (you can find it on Google Play Store or F-Droid), because we will need to enter the Termux folder, which is located externally and not just any file manager will be able to access it. Using the Material Files app: 
 
 (top right corner)
 
@@ -42,7 +42,7 @@ With everything installed and ready, let's get down to business.
 
 ↳ ubuntu-in-termux/ubuntu-fs/home, give the access permission and then move the archive you downloaded to that folder 
 
-7° On termux, write these commands:
+7° On Termux, write these commands:
 
 `cd ubuntu-in-termux` 
 
@@ -56,7 +56,7 @@ With everything installed and ready, let's get down to business.
 
 `./playit-0.9.3-aarch64`
 
-After you write the last command, playit will start and a link will show, click on the link. (similar to this playitgg/claim/a1b2c3d3)
+After you write the last command, playit will start and a link will show, **click on the link**. (similar to this playitgg/claim/a1b2c3d3)
 
 8° After the page opens, click on “Add Agent”, and everything will be done, now you just need the addresses for the game. **To find out if the server is active, enter Termux and see if there is informations about your playit server, if everything is “true”, then it's working**
 
@@ -68,7 +68,7 @@ IP:Port `(ex: 211.ply.gg:43578)`
 
 Ipv4:Port `(ex: 136.361.221.211:43578)`
 
-Every time you start an online game, people will have these three addresses choices to use
+Every time you start an online game, people will have these three addresses choices to use. 
 
 # **Tips:**
 
@@ -97,10 +97,10 @@ Just make sure you put the command in the Termux text box, **not directly at the
 
 # **Credits:**
 
-I'M NOT a programmer or even the user who created these guides, I just gathered the available information and brought it to you, to make things slightly easier. **ALL CREDIT GOES TO THESE PEOPLE:**
+I'M NOT a programmer or even the user who created these guides, I just gathered the available information and brought it to you, to make the work slightly easier. **ALL CREDIT GOES TO THESE PEOPLE:**
 
 **MateusL13 for the playit on Termux Guide on Playit Forum; (https://discuss.playit.gg/t/how-to-run-playit-on-android/133)**
 
 **MFDGaming for Ubuntu in Termux on GitHub; (https://github.com/MFDGaming/ubuntu-in-termux)**
 
-And a **special thanks for @Sunk#8066 for the Playit Setup Guide in Discord** 
+And a **special thanks to Sunk for the Playit Setup Guide in Discord** 
