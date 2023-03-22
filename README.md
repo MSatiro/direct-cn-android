@@ -4,7 +4,7 @@
 
 # **How to create a Direct Connection Server for sm64ex-coop on ANDROID**
 
-**Prerequisites: Termux and Ubuntu in Termux.**
+### **!!Prerequisites: Termux and Ubuntu in Termux.**
 
 You can get the Termux app in F-Droid Store, using the app or website: <https://f-droid.org/packages/com.termux/>
 
