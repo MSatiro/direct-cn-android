@@ -4,13 +4,13 @@
 
 # **How to create a Direct Connection Server for sm64ex-coop on ANDROID**
 
-### **!!Prerequisites: Termux and Ubuntu in Termux.**
+### ⚠️ Prerequisites: Termux and Ubuntu in Termux.**
 
 You can get the Termux app in F-Droid Store, using the app or website: <https://f-droid.org/packages/com.termux/>
 
 And for Ubuntu in Termux, follow this very intuitive guide on GitHub: <https://github.com/MFDGaming/ubuntu-in-termux>
 
-With everything installed and ready, let's get down to business. 
+With everything installed and ready, let's get down to business. ⚠️
 
 1° **Create a account** on <https://playit.gg> (It is the program that we will use to create our server). You won't have any problems, just create the account and check the email for authentication.
 
