@@ -4,7 +4,7 @@
 
 # **How to create a Direct Connection Server for sm64ex-coop on ANDROID**
 
-### ⚠️ Prerequisites: Termux and Ubuntu in Termux.**
+## ⚠️ Prerequisites: Termux and Ubuntu in Termux.**
 
 You can get the Termux app in F-Droid Store, using the app or website: <https://f-droid.org/packages/com.termux/>
 
@@ -14,7 +14,7 @@ With everything installed and ready, let's get down to business. ⚠️
 
 1° **Create a account** on <https://playit.gg> (It is the program that we will use to create our server). You won't have any problems, just create the account and check the email for authentication.
 
-2° In your account overview, press `Add Tunnel` and do these steps:
+2° In your **account overview**, press `Add Tunnel` and do these steps:
 
  • `Tunnel Type:` Custom, and press Next
 
@@ -22,11 +22,11 @@ With everything installed and ready, let's get down to business. ⚠️
 
  
 
-3° In `Port Type` choose the `TCP+UDP`, no need to type anything in `Port Count`, leave it blank, press Create Tunnel
+3° In `Port Type` choose the `TCP+UDP`, no need to type anything in `Port Count`, leave it blank, press **Create Tunnel**
 
 4° Now you can name the Tunnel whatever you want. You will see a window with some information about your tunnel, like the IP, Adress, Port, etc. You will need to **save some information**: `Adress (ex: somethin-your.at.ply.gg)  |  IP (ex: 211.ply.gg)  |  IPV4 (ex: 136.361.221.211)  |  Port (ex: 43578)` Soon we will use it to assemble the connection addresses.
 
-5° On Termux, check your device architecture using `uname -m`, will probably be “aarch64”. Go to <https://playit.gg/download/> and donwload the **Linux** version corresponding to your device architecture, so in this case,  get the aarch64
+5° On Termux, **check your device architecture** using `uname -m`, will probably be “aarch64”. Go to <https://playit.gg/download/> and donwload the **Linux** version corresponding to your device architecture, so in this case,  get the aarch64
 
 6° Use some file explorer app to move the archive we donwloaded to “ubuntu-in-termux/ubuntu-fs/home”. I recommend using the app **Material Files** (you can find it on Google Play Store or F-Droid), because we will need to enter the Termux folder, which is located externally and not just any file manager will be able to access it. Using the Material Files app: 
 
