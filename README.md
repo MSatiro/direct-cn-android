@@ -84,7 +84,8 @@ Every time you start an online game, people will have these three addresses choi
 
 Just make sure you put the command in the Termux text box, **not directly at the prompt, otherwise it won't work**
 
-# **Information about some problems:**
+
+# **Information about some know problems:**
 
 • Some people **may not be able to enter your server**, I don't know why this happens, but in one of my tests a user could not enter
 
