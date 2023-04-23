@@ -1,4 +1,4 @@
-# direct-connection-android
+# direct-connection-android (OUT OF DATE, WILL UPDATE SOON)
 
 ### The advantage of a Direct Connection server is the possibility for players on Android and PC play together without using VPN services, quickly and easily.
 
@@ -14,15 +14,17 @@ With everything installed and ready, let's get down to business. ⚠️
 
 1° **Create a account** on <https://playit.gg> (It is the program that we will use to create our server). You won't have any problems, just create the account and check the email for authentication.
 
-2° In your **account overview**, press `Add Tunnel` and do these steps:
+2° In your account page, press `+Add Tunnel` and do these steps:
 
- • `Tunnel Type:` Custom, and press Next
+ • `Tunnel Type:` TCP+UHP
 
- • `Local Ipv4 | Local Port:` You'll need to know your router IP for this step (theoretically we would have to use the true ipv4 address, however in the tests carried out we were not successful using it, only the IP of the router that worked). **To see your router IP on your Android device, it's something similar to this: Go into Wi-fi Settings > Select Your Wi-fi > Details > Scroll Down until you will see the the IP Address**, now copy it and paste in the `Local Ipv4` box on playit. In the `Local Port`, we recommend 7777, then click Next
+ • `Port Count:` 1
 
- 
+ • `Local Port:` 7777
 
-3° In `Port Type` choose the `TCP+UDP`, no need to type anything in `Port Count`, leave it blank, press **Create Tunnel**
+ • Check the `Enable Tunnel` box, then press **Add Tunnel**.
+
+3° You'll be redirected to your Tunnel page, scroll down until you find the **Update Local Adress** window,
 
 4° Now you can name the Tunnel whatever you want. You will see a window with some information about your tunnel, like the IP, Adress, Port, etc. You will need to **save some information**: `Adress (ex: somethin-your.at.ply.gg)  |  IP (ex: 211.ply.gg)  |  IPV4 (ex: 136.361.221.211)  |  Port (ex: 43578)` Soon we will use it to assemble the connection addresses.
 
