@@ -1,16 +1,11 @@
-# direct-connection-android (OUT OF DATE, WILL UPDATE SOON)
+# **direct-connection-android (OUT OF DATE, WILL UPDATE SOON)
 
-### The advantage of a Direct Connection server is the possibility for players on Android and PC play together without using VPN services, quickly and easily.
+#⚠️ Prerequisites: Termux and Ubuntu in Termux.**
 
-# **How to create a Direct Connection Server for sm64ex-coop on ANDROID**
+# You can get the Termux app in F-Droid Store, using the app or website: <https://f-droid.org/packages/com.termux/>
 
-## ⚠️ Prerequisites: Termux and Ubuntu in Termux.**
-
-You can get the Termux app in F-Droid Store, using the app or website: <https://f-droid.org/packages/com.termux/>
-
-And for Ubuntu in Termux, follow this very intuitive guide on GitHub: <https://github.com/MFDGaming/ubuntu-in-termux>
-
-With everything installed and ready, let's get down to business. ⚠️
+# And for Ubuntu in Termux, follow this very intuitive guide on GitHub: <https://github.com/MFDGaming/ubuntu-in-termux>
+**
 
 1° **Create a account** on <https://playit.gg> (It is the program that we will use to create our server). You won't have any problems, just create the account and check the email for authentication.
 
@@ -24,11 +19,15 @@ With everything installed and ready, let's get down to business. ⚠️
 
  • Check the `Enable Tunnel` box, then press **Add Tunnel**.
 
-3° You'll be redirected to your Tunnel page, scroll down until you find the **Update Local Adress** window,
+3° You'll be redirected to your Tunnel page, scroll down until you find the **Update Local Adress** window, you'll need to put your router IP in the Local Adress, to see your IP on Android: **Go into Wi-fi Settings > Select Your Wi-fi > Details > Scroll Down until you will see the the IP Address**, now copy it and paste in the 'Local Adress, then click in Update
 
-4° Now you can name the Tunnel whatever you want. You will see a window with some information about your tunnel, like the IP, Adress, Port, etc. You will need to **save some information**: `Adress (ex: somethin-your.at.ply.gg)  |  IP (ex: 211.ply.gg)  |  IPV4 (ex: 136.361.221.211)  |  Port (ex: 43578)` Soon we will use it to assemble the connection addresses.
+4 Scrolling down a little bit more you'll see some infos. Name the Tunnel whatever you want. You will see a bunch information about your tunnel, **save some information** for later: 
+• `Domain (ex: somethin-your.at.ply.gg)`.
+• `Allocation (ex: 211.ply.gg)`. 
+• `IP (it's the same you've put on the Update Local Adress box)`.
+• `Port (ex: 43578)`.
 
-5° On Termux, **check your device architecture** using `uname -m`, will probably be “aarch64”. Go to <https://playit.gg/download/> and donwload the **Linux** version corresponding to your device architecture, so in this case,  get the aarch64
+5° On Termux, **check your device architecture** using `uname -m`, I'll be considering that is “aarch64”. Then go to <https://playit.gg/download/> and donwload the **Linux** version corresponding to your device architecture, so in this example,  get the aarch64 (if isn't aarch64, then grab the corresponding one).
 
 6° Use some file explorer app to move the archive we donwloaded to “ubuntu-in-termux/ubuntu-fs/home”. I recommend using the app **Material Files** (you can find it on Google Play Store or F-Droid), because we will need to enter the Termux folder, which is located externally and not just any file manager will be able to access it. Using the Material Files app: 
 
@@ -54,7 +53,7 @@ With everything installed and ready, let's get down to business. ⚠️
 
 `ls | grep playit`  (it will show the playit version, I'll use as **example** “playit-0.9.3-aarch64”) 
 
-`chmod +x playit-0.9.3-aarch64` (again, write the version that appeared when you used the command above)
+`chmod +x playit-0.9.3-aarch64` (again, if your device architecture isn't aarch64 or even the playit version isn't 0.9.3, then write the version that appeared when you used the command above)
 
 `./playit-0.9.3-aarch64`
 
