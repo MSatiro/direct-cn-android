@@ -1,8 +1,8 @@
 # **direct-connection-android (OUT OF DATE, WILL UPDATE SOON)
 
 # Prerequisites: Termux and Ubuntu in Termux.
-You can get the Termux app in F-Droid Store, using the app or website: <https://f-droid.org/packages/com.termux/>
-And for Ubuntu in Termux, follow this very intuitive guide on GitHub: <https://github.com/MFDGaming/ubuntu-in-termux>
+# - You can get the Termux app in F-Droid Store, using the app or website: <https://f-droid.org/packages/com.termux/>
+# - And for Ubuntu in Termux, follow this very intuitive guide on GitHub: <https://github.com/MFDGaming/ubuntu-in-termux>
 **
 
 1° **Create a account** on <https://playit.gg> (It is the program that we will use to create our server). You won't have any problems, just create the account and check the email for authentication.
