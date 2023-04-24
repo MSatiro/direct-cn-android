@@ -52,7 +52,7 @@
 7° After you write the last command, playit will start and a **token will show, save it somewhere** then go in <https://playit.gg/setup/agent>. That page it's a one-time step, if the webpage doesn't detect your token automatically (what I'm not sure if it's working 100% on mobile), then click on the hyperlink "...[here](https://playit.gg/claim?setup_start=0)" and put the token. The app will validate the token, and you're all set. 
 **PRO-GAMER-TIP:** To see if the server is active, go in Termux and see if "Authenticated, Connection Alive and Tunnels Setup" are `true`, if everything is then you're online!
 
-8° In your [tunnel overview](https://playit.gg/account/tunnels) select the tunnel you've created, and you'll find your `Domain`, 'Allocation` and `Port` infos.
+8° In your [tunnel overview](https://playit.gg/account/tunnels) select the tunnel you've created, and you'll find your `Domain`, `Allocation` and `Port` infos.
 
 Combine then in this way:
 `Domain`:`Port` (ex: as-lexington.at.ply.gg:76532)
