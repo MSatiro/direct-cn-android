@@ -23,9 +23,9 @@
 
 5° Use some file explorer app to **move the archive we donwloaded to “ubuntu-in-termux/ubuntu-fs/home”**. I recommend using the app **Material Files** (you can find it on Google Play Store or F-Droid), because we will need to enter the Termux folder, which is located externally and not just any file manager will be able to access it. Using the Material Files app: 
 
-(top right corner)
+`(top right corner)
 
-↳ Add Storage 
+↳ Add Storage
 
 ↳ External Storage
 
@@ -33,7 +33,7 @@
 
 ↳ Termux
 
-↳ ubuntu-in-termux/ubuntu-fs/home, give the access permission and then move the archive you downloaded to that folder 
+↳ ubuntu-in-termux/ubuntu-fs/home` give the access permission and then move the archive you downloaded to that folder 
 
 6° On Termux, write these commands:
 
@@ -91,8 +91,8 @@ Just make sure you put the command in the Termux text box, **not directly at the
 
 I'M NOT a programmer or even the user who created these guides, I just gathered the available information and brought it to you, to make the work slightly easier. **ALL CREDIT GOES TO THESE PEOPLE:**
 
-**[MateusL13 for the playit on Termux Guide on Playit Forum] (https://discuss.playit.gg/t/how-to-run-playit-on-android/133)**
+[MateusL13 for the playit on Termux Guide on Playit Forum] (https://discuss.playit.gg/t/how-to-run-playit-on-android/133)
 
-**[MFDGaming for Ubuntu in Termux on GitHub] (https://github.com/MFDGaming/ubuntu-in-termux)**
+[MFDGaming for Ubuntu in Termux on GitHub] (https://github.com/MFDGaming/ubuntu-in-termux)
 
 And a **special thanks to Sunk for the Playit Setup Guide in Discord** 
