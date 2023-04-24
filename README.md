@@ -1,6 +1,6 @@
 # direct-connection-sm64excoop-android 
 
-## Prerequisites: [Termux](https://f-droid.org/packages/com.termux/) and [Ubuntu in Termux](https://github.com/MFDGaming/ubuntu-in-termux)
+# Prerequisites: [Termux](https://f-droid.org/packages/com.termux/) and [Ubuntu in Termux](https://github.com/MFDGaming/ubuntu-in-termux)
 ### **(note: don't download the Termux from Google Play Store, it's outdated and won't properly work)**
 
 
