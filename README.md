@@ -15,7 +15,7 @@
 
  • Check the `Enable Tunnel` box, then press **Add Tunnel**.
 
-3° You'll be redirected to your Tunnel page, scroll down until you find the **Update Local Adress** window, you'll need to put your router IP in the Local Adress, to see your IP on Android: **Go into Wi-fi Settings > Select Your Wi-fi > Details > Scroll Down until you will see the the IP Address**, now copy it and paste in the 'Local Adress`, then click in Update
+3° You'll be redirected to your Tunnel page, scroll down until you find the **Update Local Adress** window, you'll need to put your router IP in the Local Adress, to see your IP on Android: **Go into Wi-fi Settings > Select Your Wi-fi > Details > Scroll Down until you will see the the IP Address**, now copy it and paste in the `Local Adress`, then click in Update
 
 
 
