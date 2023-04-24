@@ -1,7 +1,7 @@
 # direct-connection-sm64excoop-android 
 
 ## Prerequisites: [Termux](https://f-droid.org/packages/com.termux/) and [Ubuntu in Termux](https://github.com/MFDGaming/ubuntu-in-termux)
-###**(note: don't download the Termux from Google Play Store, it's outdated and won't properly work)**
+### **(note: don't download the Termux from Google Play Store, it's outdated and won't properly work)**
 
 1° **Create a account** on <https://playit.gg> (It is the program that we will use to create our server). You won't have any problems, just create the account and check the email for authentication.
 
