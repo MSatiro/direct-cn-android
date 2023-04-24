@@ -3,25 +3,17 @@
 ## Prerequisites: [Termux](https://f-droid.org/packages/com.termux/) and [Ubuntu in Termux](https://github.com/MFDGaming/ubuntu-in-termux)
 ### **(note: don't download the Termux from Google Play Store, it's outdated and won't properly work)**
 
+
+
 1° **Create a account** on <https://playit.gg> (It is the program that we will use to create our server). You won't have any problems, just create the account and check the email for authentication.
 
-2° In your account page, press `+Add Tunnel` and do these steps:
 
- • `Tunnel Type:` TCP+UHP
 
- • `Port Count:` 1
-
- • `Local Port:` 7777
-
- • Check the `Enable Tunnel` box, then press **Add Tunnel**.
-
-3° You'll be redirected to your Tunnel page, scroll down until you find the **Update Local Adress** window, you'll need to put your router IP in the Local Adress, to see your IP on Android: **Go into Wi-fi Settings > Select Your Wi-fi > Details > Scroll Down until you will see the the IP Address**, now copy it and paste in the `Local Adress`, then click in Update
+2° On Termux, **check your device architecture** using `uname -m`, I'll be considering that is “aarch64”. Then go to <https://playit.gg/download/> and donwload the **Linux** version corresponding to your device architecture, so in this example,  get the aarch64 (if isn't aarch64, then grab the corresponding one).
 
 
 
-4° On Termux, **check your device architecture** using `uname -m`, I'll be considering that is “aarch64”. Then go to <https://playit.gg/download/> and donwload the **Linux** version corresponding to your device architecture, so in this example,  get the aarch64 (if isn't aarch64, then grab the corresponding one).
-
-5° Use some file explorer app to **move the archive we donwloaded to “ubuntu-in-termux/ubuntu-fs/home”**. I recommend using the app **Material Files** (you can find it on Google Play Store or F-Droid), because we will need to enter the Termux folder, which is located externally and not just any file manager will be able to access it. Using the Material Files app: 
+3° Use some file explorer app to **move the archive we donwloaded to “ubuntu-in-termux/ubuntu-fs/home”**. I recommend using the app **Material Files** (you can find it on Google Play Store or F-Droid), because we will need to enter the Termux folder, which is located externally and not just any file manager will be able to access it. Using the Material Files app: 
 
 `(top right corner)`
 
@@ -35,7 +27,9 @@
 
 ↳ `ubuntu-in-termux/ubuntu-fs/home` give the access permission and then move the archive you downloaded to that folder 
 
-6° On Termux, write these commands:
+
+
+4° On Termux, write these commands:
 
 `cd ubuntu-in-termux` 
 
@@ -49,8 +43,26 @@
 
 `./playit-0.9.3-aarch64`
 
-7° After you write the last command, playit will start and a **token will show, save it somewhere** then go in <https://playit.gg/setup/agent>. That page it's a one-time step, if the webpage doesn't detect your token automatically (what I'm not sure if it's working 100% on mobile), then click on the hyperlink "...[here](https://playit.gg/claim?setup_start=0)" and put the token. The app will validate the token, and you're all set. 
-**PRO-GAMER-TIP:** To see if the server is active, go in Termux and see if "Authenticated, Connection Alive and Tunnels Setup" are `true`, if everything is then you're online!
+
+
+5° After you write the last command, playit will start and a **token will show, save it somewhere** then go in <https://playit.gg/setup/agent>. That page it's a one-time step, if the webpage doesn't detect your token automatically (what I'm not sure if it's working 100% on mobile), then click on the hyperlink "...[here](https://playit.gg/claim?setup_start=0)" and put the token. The app will validate the token, and you're all set. 
+
+
+
+6° In your [tunnels page](https://playit.gg/account/tunnels), press `+Add Tunnel` and do these steps:
+
+ • `Tunnel Type:` TCP+UHP
+
+ • `Port Count:` 1
+
+ • `Local Port:` 7777
+
+ • Check the `Enable Tunnel` box, then press **Add Tunnel**.
+
+
+
+7° You'll be redirected to your created tunnel page, scroll down until you find the **Update Local Adress** window, you'll need to put your router IP in the Local Adress, to see your IP on Android: **Go into Wi-fi Settings > Select Your Wi-fi > Details > Scroll Down until you will see the the IP Address**, now copy it and paste in the `Local Adress`, then click in Update
+
 
 8° In your [tunnel overview](https://playit.gg/account/tunnels) select the tunnel you've created, and you'll find your `Domain`, `Allocation` and `Port` infos.
 
@@ -72,6 +84,8 @@ cd /home
 
 ☝️ **That's how you start the server.**
 Just make sure you put the command in the Termux text box, **not directly at the prompt, otherwise it won't work**
+
+**PRO-GAMER-TIP:** To see if the server is active, go in Termux and see if "Authenticated, Connection Alive and Tunnels Setup" are `true`, if everything is then you're online!
 
 
 # **Information about some know problems:**
