@@ -24,15 +24,10 @@
 5° Use some file explorer app to **move the archive we donwloaded to “ubuntu-in-termux/ubuntu-fs/home”**. I recommend using the app **Material Files** (you can find it on Google Play Store or F-Droid), because we will need to enter the Termux folder, which is located externally and not just any file manager will be able to access it. Using the Material Files app: 
 
 `(top right corner)
-
 ↳ Add Storage
-
 ↳ External Storage
-
 ↳ (probay the google integrated files manager will show up, then click top right corner)
-
 ↳ Termux
-
 ↳ ubuntu-in-termux/ubuntu-fs/home` give the access permission and then move the archive you downloaded to that folder 
 
 6° On Termux, write these commands:
