@@ -21,7 +21,7 @@
 
 4° On Termux, **check your device architecture** using `uname -m`, I'll be considering that is “aarch64”. Then go to <https://playit.gg/download/> and donwload the **Linux** version corresponding to your device architecture, so in this example,  get the aarch64 (if isn't aarch64, then grab the corresponding one).
 
-5° Use some file explorer app to move the archive we donwloaded to “ubuntu-in-termux/ubuntu-fs/home”. I recommend using the app **Material Files** (you can find it on Google Play Store or F-Droid), because we will need to enter the Termux folder, which is located externally and not just any file manager will be able to access it. Using the Material Files app: 
+5° Use some file explorer app to **move the archive we donwloaded to “ubuntu-in-termux/ubuntu-fs/home”**. I recommend using the app **Material Files** (you can find it on Google Play Store or F-Droid), because we will need to enter the Termux folder, which is located externally and not just any file manager will be able to access it. Using the Material Files app: 
 
 (top right corner)
 
@@ -50,7 +50,7 @@
 `./playit-0.9.3-aarch64`
 
 7° After you write the last command, playit will start and a **token will show, save it somewhere** then go in <https://playit.gg/setup/agent>. That page it's a one-time step, if the webpage doesn't detect your token automatically (what I'm not sure if it's working 100% on mobile), then click on the hyperlink "...[here](https://playit.gg/claim?setup_start=0)" and put the token. The app will validate the token, and you're all set. 
-**PRO-TIP:** To see if the server is active, go in Termux and see if "Authenticated, Connection Alive and Tunnels Setup" are `true`, if everything is then you're online!
+**PRO-GAMER-TIP:** To see if the server is active, go in Termux and see if "Authenticated, Connection Alive and Tunnels Setup" are `true`, if everything is then you're online!
 
 8° In your [tunnel overview](https://playit.gg/account/tunnels) select the tunnel you've created, and you'll find your `Domain`, 'Allocation` and `Port` infos.
 
@@ -70,6 +70,7 @@ Every time you start an online game, people will have these two addresses choice
 cd /home
 ./playit-0.9.3-aarch64`
 
+☝️ **That's how you start the server.**
 Just make sure you put the command in the Termux text box, **not directly at the prompt, otherwise it won't work**
 
 
@@ -94,5 +95,4 @@ I'M NOT a programmer or even the user who created these guides, I just gathered 
 
 **[MFDGaming for Ubuntu in Termux on GitHub] (https://github.com/MFDGaming/ubuntu-in-termux)**
 
-And a **special thanks to Sunk for the Playit Setup Guide in Discord** **To find out if the server is active, enter Termux and see if there is informations about your playit server, if everything is “true”, then it's working**
-
+And a **special thanks to Sunk for the Playit Setup Guide in Discord** 
