@@ -55,9 +55,8 @@
 
 `./playit-0.9.3-aarch64`
 
-After you write the last command, playit will start and a link will show, **click on the link**. (similar to this playitgg/claim/a1b2c3d3)
-
-8° After the page opens, click on “Add Agent”, and everything will be done, now you just need the addresses for the game. **To find out if the server is active, enter Termux and see if there is informations about your playit server, if everything is “true”, then it's working**
+After you write the last command, playit will start and a **token will show, save it somewhere** then go in <https://playit.gg/setup/agent>. That page it's a one-time step, if the webpage doesn't detect your token automatically (what I'm not sure if it's working 100% on mobile), then click on the hyperlink "...[here](https://playit.gg/claim?setup_start=0)" and put the token. The app will validate the token, and you're all set. 
+**TIP:** **To see if the server is active, go in Termux and see if "Authenticated, Connection Alive and Tunnels Setup" are `true`, if everything is then you're online!
 
 9° Assemble the addresses for your games, remember the information I told you to keep in step 4? So we'll use it now. You have three address options available:
 
@@ -103,4 +102,5 @@ I'M NOT a programmer or even the user who created these guides, I just gathered 
 
 **MFDGaming for Ubuntu in Termux on GitHub; (https://github.com/MFDGaming/ubuntu-in-termux)**
 
-And a **special thanks to Sunk for the Playit Setup Guide in Discord** 
+And a **special thanks to Sunk for the Playit Setup Guide in Discord** **To find out if the server is active, enter Termux and see if there is informations about your playit server, if everything is “true”, then it's working**
+
