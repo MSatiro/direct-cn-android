@@ -45,11 +45,12 @@
 
 
 
-5° After you write the last command, playit will start and a **token will show, save it somewhere** then go in <https://playit.gg/setup/agent>. That page it's a one-time step, if the webpage doesn't detect your token automatically (what I'm not sure if it's working 100% on mobile), then click on the hyperlink "...[here](https://playit.gg/claim?setup_start=0)" and put the token. The app will validate the token, and you're all set. 
+5° After you write the last command, playit will start and a **token will show, save it somewhere** then go in <https://playit.gg/setup/agent>. That page it's a one-time step, if the webpage doesn't detect your token automatically (what I'm not sure if it's working 100% on mobile), then click on the hyperlink in `Step 2` "...[here](https://playit.gg/claim?setup_start=0)" and put the token. The site will validate the token. 
+• The `Step 3` probably will be automatically done after the step 2.
+• Then in the `Step 4` press **Create Tunnel**, you'll be redirected to your [first tunnel setup page](https://playit.gg/account/agents/default/tunnels/add)
 
 
-
-6° In your [tunnels page](https://playit.gg/account/tunnels), press `+Add Tunnel` and do these steps:
+6° In your [tunnel's page](https://playit.gg/account/tunnels) (or in your first tunnel setup, which it's literally the same thing), press `+Add Tunnel` and follow these steps:
 
  • `Tunnel Type:` TCP+UHP
 
